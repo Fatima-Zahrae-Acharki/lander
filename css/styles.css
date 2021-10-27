@@ -1,0 +1,108 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    background-color: green;
+    height: 75vh;
+    
+    
+}
+header
+{
+    width: 100%;
+    height: 75px;
+    background-color: hsl(21deg 87% 65%);
+    
+}
+.cont
+{
+    background-color: hsl(21deg 87% 65%);
+    height: 300px;
+}
+nav
+{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+   
+}
+.nv-left img{
+    height: 40px;
+}
+.nv-left
+{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: darkblue;
+}
+.nv-left ul 
+{
+    display: flex;
+    margin-left: 65px;
+}
+.nv-left ul li
+{
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 25px;
+
+}
+.nv-left ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.nv-right a:first-child
+{
+    background-color: rgb(3, 32, 48);
+    border-radius: 8px;
+}
+.nv-right a
+{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 15px 20px;
+    
+   
+
+    
+}
+.nv-right
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.nv-right a:last-child
+{
+    border: #fff 2px solid;
+    border-radius: 8px;
+    
+}
+.cont h1
+{
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.cont p
+{
+    font-family: Georgia;
+    color: rgb(69, 36, 27);
+    text-align: center;
+    font-size: 36;
+}
